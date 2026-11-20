@@ -1,0 +1,27 @@
+{
+  "id": "alibaba/qwen-image-3/text-to-image",
+  "name": "Qwen Image 3",
+  "operation": "TEXT_TO_IMAGE",
+  "output": "IMAGE",
+  "documentation": "https://open.higgsfield.ai/models/alibaba/qwen-image-3/text-to-image/api-reference",
+  "schemaComplete": false,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "prompt": {
+        "type": "string",
+        "minLength": 1
+      },
+      "aspect_ratio": {
+        "type": "string"
+      },
+      "resolution": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "prompt"
+    ]
+  },
+  "verifiedAt": "2026-11-18"
+}

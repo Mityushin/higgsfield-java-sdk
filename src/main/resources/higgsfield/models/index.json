@@ -1,0 +1,19 @@
+{
+  "formatVersion": 1,
+  "entries": [
+    "bytedance/seedance-2.0/text-to-video.json",
+    "bytedance/seedance-2.0/image-to-video.json",
+    "bytedance/seedance-2.0/reference-to-video.json",
+    "bytedance/seedance-2.5/text-to-video.json",
+    "bytedance/seedance-2.5/image-to-video.json",
+    "bytedance/seedance-2.5/reference-to-video.json",
+    "bytedance/seedance-2.5/video-edit.json",
+    "bytedance/seedance-2.5/video-extend.json",
+    "marketing-studio/image.json",
+    "recraft/v4.1/text-to-image.json",
+    "z-image/turbo.json",
+    "alibaba/qwen-image-3/text-to-image.json",
+    "kling-video/v4.0/text-to-video.json",
+    "kling-video/v3.0-turbo/text-to-video.json"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "kling-video/v4.0/text-to-video",
+  "name": "Kling 4.0",
+  "operation": "TEXT_TO_VIDEO",
+  "output": "VIDEO",
+  "documentation": "https://open.higgsfield.ai/models/kling-video/v4.0/text-to-video/api-reference",
+  "schemaComplete": false,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "prompt": {
+        "type": "string",
+        "minLength": 1
+      },
+      "duration": {
+        "type": "integer",
+        "minimum": 3,
+        "maximum": 30,
+        "default": 10
+      },
+      "resolution": {
+        "type": "string",
+        "enum": [
+          "720p",
+          "1080p"
+        ],
+        "default": "1080p"
+      },
+      "aspect_ratio": {
+        "type": "string",
+        "enum": [
+          "21:9",
+          "16:9",
+          "9:16",
+          "1:1"
+        ],
+        "default": "16:9"
+      }
+    },
+    "required": [
+      "prompt"
+    ]
+  },
+  "verifiedAt": "2026-11-18"
+}
