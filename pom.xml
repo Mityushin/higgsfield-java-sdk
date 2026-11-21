@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.mityushin</groupId>
   <artifactId>higgsfield-java-sdk</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.1.0</version>
   <name>Higgsfield Java SDK</name>
   <description>Unofficial Java SDK for the Higgsfield API</description>
   <url>https://github.com/Mityushin/higgsfield-java-sdk</url>
@@ -24,7 +24,7 @@
     <connection>scm:git:https://github.com/Mityushin/higgsfield-java-sdk.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/Mityushin/higgsfield-java-sdk.git</developerConnection>
     <url>https://github.com/Mityushin/higgsfield-java-sdk</url>
-    <tag>HEAD</tag>
+    <tag>v0.1.0</tag>
   </scm>
   <properties>
     <central.skipUpload>false</central.skipUpload>

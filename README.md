@@ -2,7 +2,7 @@
 
 An unofficial Higgsfield Java SDK. Requires Java 25. This project is not affiliated with Higgsfield.
 
-The current artifact is `io.github.mityushin:higgsfield-java-sdk:0.1.0-SNAPSHOT`; it has not yet been published.
+The coordinates for this version are `io.github.mityushin:higgsfield-java-sdk:0.1.0`.
 
 General-purpose Higgsfield generation client, independent of Spring. The asynchronous methods start immediately and return `CompletableFuture`. Close the client when finished. The credentials are `key-id:key-secret`; `fromEnvironment()` reads `HF_CREDENTIALS`, `HF_KEY`, or `HF_API_KEY` and `HF_API_SECRET`.
 
