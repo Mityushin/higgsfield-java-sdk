@@ -44,3 +44,15 @@ var request = client.submit(model, Map.of("prompt", "A cinematic sunset"));
 Catalog schemas currently contain selected verified fields only (`schemaComplete() == false`). They are informational and are **not** automatically enforced during submission: optional fields and endpoint capabilities can change independently of an SDK release. Use `documentation()` for the model-specific reference and `find(id)` to check for absent entries. The returned schema is a defensive copy.
 
 Licensed under the MIT License; see [LICENSE](LICENSE).
+
+## Formatting
+
+Java source and tests follow Spring Java Format. `mvn verify` checks formatting as part of the build. To apply the Java formatter and check the POM, run:
+
+```bash
+mvn io.spring.javaformat:spring-javaformat-maven-plugin:0.0.46:apply
+python3 tools/format_pom.py --write
+python3 tools/format_pom.py --check
+```
+
+CI checks the POM format separately; the POM formatter requires Python 3.

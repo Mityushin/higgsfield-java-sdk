@@ -18,4 +18,6 @@ jobs:
           distribution: temurin
           java-version: '25'
           cache: maven
+      - name: Check POM format
+        run: python3 tools/format_pom.py --check
       - run: mvn -B -ntp verify
