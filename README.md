@@ -43,6 +43,4 @@ var request = client.submit(model, Map.of("prompt", "A cinematic sunset"));
 
 Catalog schemas currently contain selected verified fields only (`schemaComplete() == false`). They are informational and are **not** automatically enforced during submission: optional fields and endpoint capabilities can change independently of an SDK release. Use `documentation()` for the model-specific reference and `find(id)` to check for absent entries. The returned schema is a defensive copy.
 
-To maintain the catalog, update the individual JSON files and `index.json` together using the model-specific documentation, retain source URLs, add or update tests and named constants, and release a new SDK version. Higgsfield's supplementary OpenAPI file is not a complete model catalog. Review changed parameters and source environment before publishing; updating the dependency is how consumers obtain newer snapshots.
-
 Licensed under the MIT License; see [LICENSE](LICENSE).
